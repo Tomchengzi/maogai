@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>毛概复习题库</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="header-inner">
+      <span class="logo">📚</span>
+      <span class="site-title">毛概复习题库</span>
+    </div>
+    <div id="main-tabs">
+      <button class="main-tab active" data-tab="chapter">章节练习</button>
+      <button class="main-tab" data-tab="choice">选择题练习</button>
+      <button class="main-tab" data-tab="judge">判断题练习</button>
+    </div>
+    <nav id="chapter-nav"></nav>
+  </header>
+  <main>
+    <div id="type-tabs"></div>
+    <div id="questions-container"></div>
+    <div id="question-navigation">
+      <button id="prev-btn" class="nav-btn">上一题</button>
+      <button id="next-btn" class="nav-btn">下一题</button>
+    </div>
+  </main>
+  <footer>
+    <span>毛概复习题库</span>
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html> 
